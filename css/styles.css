@@ -37,3 +37,7 @@ body {
 .navbar-dark {
     background-color: #512da8;
 }
+
+.table-reserve-card .card-header{
+    background-color: #fdc12f;
+}
