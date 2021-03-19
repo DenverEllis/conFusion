@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#mycarousel").carousel( { interval: 2000 } );
+
     $("#carousel-pause").click(function(){
         $("#mycarousel").carousel('pause');
     });
@@ -7,4 +8,8 @@ $(document).ready(function(){
     $("#carousel-play").click(function(){
         $("#mycarousel").carousel('cycle');
     });
+
+    $("#loginModal").click(function(){
+        $("")
+    })
 });
