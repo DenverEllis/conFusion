@@ -9,7 +9,11 @@ $(document).ready(function(){
         $("#mycarousel").carousel('cycle');
     });
 
-    $("#loginModal").click(function(){
-        $("")
-    })
+    $("#loginModalButton").click(function(){
+        $("#loginModal").modal('toggle');
+    });
+
+    $("#reserveModalButton").click(function(){
+        $("#reserveModal").modal('toggle');
+    });
 });
